@@ -175,7 +175,7 @@ public class Main {
         String maintenanceDate = sc.nextLine();
         System.out.print("Enter the Description: ");
         String description = sc.nextLine();
-        System.out.print("Enter the Cost to perform Maintenance: ");
+        System.out.print("Enter the Cost: ");
         double cost = sc.nextDouble();
         boolean result = imp.performMaintenance(assetId, maintenanceDate, description, cost);
         if (result) {

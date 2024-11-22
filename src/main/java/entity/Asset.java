@@ -23,7 +23,7 @@ public class Asset {
         this.ownerId = ownerId;
     }
 
-    public Asset() {}
+
 
     public int getAssetId() {
         return assetId;

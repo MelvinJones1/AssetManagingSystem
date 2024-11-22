@@ -220,8 +220,8 @@ public class AssetManagementServiceImpl implements AssetManagementService{
 
         String query="DELETE from reservations WHERE reservation_id=?";
 
-        try(Connection conn = DBConnUtil.getConnection()) {
-            PreparedStatement ptsmt=conn.prepareStatement(query);
+        try(Connection con = DBConnUtil.getConnection()) {
+            PreparedStatement ptsmt=con.prepareStatement(query);
             ptsmt.setInt(1, reservationId);
             ptsmt.executeUpdate();
         }

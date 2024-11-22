@@ -16,7 +16,6 @@ public class MaintenanceRecord {
         this.cost = cost;
     }
 
-    public MaintenanceRecord() {}
 
     public int getMaintenanceId() {
         return maintenanceId;

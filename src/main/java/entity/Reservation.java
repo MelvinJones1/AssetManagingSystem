@@ -21,10 +21,6 @@ public class Reservation {
         this.status = status;
     }
 
-
-    public Reservation() {}
-
-
     public int getReservationId() {
         return reservationId;
     }

@@ -16,7 +16,6 @@ public class AssetAllocation {
         this.returnDate = returnDate;
     }
 
-    public AssetAllocation() {}
 
     public int getAllocationId() {
         return allocationId;
