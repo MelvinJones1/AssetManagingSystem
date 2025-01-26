@@ -1,8 +1,5 @@
 # Asset Management Case Study
 
-## Team 7
-- **Melvin Jones**
-- **Navadharshini**
 
 This project is a comprehensive implementation of an **Asset Management System**, designed to handle various operations like adding, updating, deleting, allocating, and reserving assets, along with maintenance tracking and exception handling.
 
